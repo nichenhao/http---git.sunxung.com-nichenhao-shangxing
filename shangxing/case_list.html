@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>上行科技</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="casebox">
+			<div style="background: #FFFFFF;width: 100%;height: 78px;z-index: 9;position: fixed;left: 0;top: 0;">
+				<div class="head">
+					<div class="shangxing_logo"><img src="images/Nav_LOGO_black.png"/></div>
+					<ul class="head_nav black_ border_">
+						<li class="Ability_nav"><a href="index2.html#Ability">Ability</a></li>
+						<li class="Case_nav"><a href="index2.html#Case">Case</a></a></li>
+						<li class="About_nav"><a href="index2.html#About">About</a></li>
+						<li class="Contact_nav"><a href="index2.html#Contact">Contact</a></li>
+						<li>400-88659360</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div style="width: 100%;height: 78px;"></div>
+			
+			<div class="case_show">
+				<ul id="case_list">
+					
+				</ul>
+				<div id="biuuu_city"></div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/laypage.js"></script>
+	<script src="js/case.js"></script>
+	<script>
+		$(function(){
+			$('.shangxing_logo').click(function(){
+				window.location = "index.html";
+			});
+		})
+	</script>
+</html>
